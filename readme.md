@@ -77,7 +77,7 @@ The interface allows easy image upload, serving size selection, and download of 
 
 ## 🤔 Results with Identified Fruit image and Nutrient summary
 
-![Nutrition Results](Project-Images/Nutrition%Results.png)
+![Nutrition Results](Project-Images/Nutrition%20Results.png)
 
 
 ## 📄 PDF Report Example
