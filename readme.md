@@ -1,4 +1,4 @@
-# 🧠 Smartbite: AI-powered Fruit Detection & Nutritional Estimation
+# 🧠 Smartbite: AI-powered Fruit Detector & Nutrition Estimator
 
 Smartbite is an AI-based application built using YOLO (You Only Look Once) that identifies fruits from an uploaded image and provides an accurate nutritional breakdown per fruit based on a selected serving size. It also offers the option to download the analysis as a professional PDF report.
 
