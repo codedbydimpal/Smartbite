@@ -187,3 +187,25 @@ A sample output report includes:
 - 🥗 Integration with broader meal tracking systems
 
 ---
+## References
+
+1. [Nutritionix – Track - Calorie Counter](https://www.nutritionix.com/)
+
+2. Arya Kulkarni, Avanti Chouknis, Bhavna Choudhari, and Sharvari Suryavanshi (2024).  
+   *Nutrient Value Estimation via Fruit Detection Using YOLOv8*.  
+   [View Paper on IJFMR](https://www.ijfmr.com/research-paper.php?id=26322)  
+   
+3. Chitra Bhole, Chandani Joshi, Prasun Chakrabarti, and Arvind Sharma (2023).  
+   *Fruit Detection and Classification using YOLO Models*.  
+   [View Article on IJRITCC](https://ijritcc.org/index.php/ijritcc/article/view/10306)  
+  
+4. Kedar Sawant, Chandrakant Shyam Chodankar, Rudresh D. Shirwaikar, Bhupesh Nilkant Tirodkar, Pramesh Gawas (2024).  
+   *Fruit Identification using YOLO v8 and Faster R-CNN – A Comparative Study*.  
+   [View in Conference Proceedings](https://www.proceedings.com/content/074/074635webtoc.pdf)
+
+
+5. [GeeksforGeeks – Convolutional Neural Network (CNN) in Machine Learning](https://www.geeksforgeeks.org/convolutional-neural-network-cnn-in-machine-learning/)
+
+6. [ScienceDirect – Machine Learning Algorithms](https://www.sciencedirect.com/topics/engineering/machine-learning-algorithm)
+
+7. [ResearchGate – Fundamental Concepts of Convolutional Neural Network](https://www.researchgate.net/publication/337401161_Fundamental_Concepts_of_Convolutional_Neural_Network)
