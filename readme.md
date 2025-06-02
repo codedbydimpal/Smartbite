@@ -61,7 +61,7 @@ The YOLOv8 model was trained to detect multiple fruit categories. Below are the 
 | `mAP@0.5`          | ~0.95               |
 | `mAP@0.5:0.95`     | ~0.85               |
 
-![Training Results](./Results.png)
+![Training Results](Project-Images/Results.png)
 
 These metrics indicate the model is both highly accurate and robust in detecting fruit categories.
 
@@ -71,13 +71,13 @@ These metrics indicate the model is both highly accurate and robust in detecting
 
 The interface allows easy image upload, serving size selection, and download of results:
 
-![Smartbite GUI](./Smartbite%20GUI.png)
+![Smartbite GUI](Project-Images/Smartbite%20GUI.png)
 
 ---
 
 ## 🤔 Results with Identified Fruit image and Nutrient summary
 
-![Nutrition Results](./Nutrition%Results.png)
+![Nutrition Results](Project-Images/Nutrition%Results.png)
 
 
 ## 📄 PDF Report Example
@@ -87,7 +87,7 @@ A sample output report includes:
 - The detection result with bounding boxes.
 - A nutrient breakdown per fruit based on serving size.
 
-![Report Sample](./Report%20in%20PDF%20form.png)
+![Report Sample](Project-Images/Report%20in%20PDF%20form.png)
 
 ---
 
