@@ -39,6 +39,52 @@ Demonstrates the use of real-time object detection and classification in a pract
 
 ---
 
+## 📦 Dataset
+
+The Smartbite model was trained on a custom-curated dataset consisting of labeled images for **15 different fruit classes**. Each image includes bounding boxes that annotate individual fruits, allowing the YOLOv8 model to learn precise object detection and classification.
+
+### 📊 Class Distribution
+
+The dataset maintains a fairly balanced distribution across all classes, minimizing model bias and ensuring robust training.
+
+![Dataset Distribution](Project-Images/Dataset.png)
+
+- Most represented: **Kiwi (273)**, **Orange (267)**, **Strawberry (261)**
+- Least represented: **Watermelon (120)**
+- Distribution range: ~4% to ~9.5% per class
+
+### 🍇 Included Classes
+
+- Apple
+- Banana
+- Cherry
+- Coconut
+- Cucumber
+- Grape
+- Kiwi
+- Melon
+- Orange
+- Peach
+- Pear
+- Pineapple
+- Pomegranate
+- Strawberry
+- Watermelon
+
+### 🗂️ Folder Structure
+
+dataset/
+├── images/
+│ ├── train/
+│ ├── val/
+├── labels/
+│ ├── train/
+│ ├── val/
+
+Each image is annotated in YOLO format.
+
+---
+
 ## 🧪 Model Training Results
 
 The YOLOv8 model was trained to detect multiple fruit categories. Below are the performance metrics over 50 epochs:
@@ -67,6 +113,33 @@ These metrics indicate the model is both highly accurate and robust in detecting
 
 ---
 
+## 🧩 Confusion Matrix
+
+The confusion matrix below shows the model’s prediction accuracy across the 15 fruit classes.
+
+![Confusion Matrix](Project-Images/confusion_matrix.png)
+
+#### 🔍 Interpretation:
+
+- **Diagonal dominance** (darker blue) indicates the model correctly identifies most fruits — e.g., `cucumber`, `apple`, `kiwi`, and `strawberry` all have strong diagonal counts.
+- **Off-diagonal values** represent misclassifications, such as:
+  - `banana` misclassified as `apple` (3 times)
+  - `coconut` confused with `apple` or `peach`
+  - A few fruits like `melon` or `grape` also had occasional errors
+- The matrix includes a **`background` class**, ensuring the model isn't falsely detecting fruits where none exist — essential for robust detection.
+
+---
+
+## 📈 Evaluation Curves
+
+- **Precision-Recall Curve**  
+  ![PR Curve](Project-Images/PR_curve.png)
+
+- **F1 Score Curve**  
+  ![F1 Curve](Project-Images/F1_curve.png)
+
+
+
 ## 🖥️ GUI Snapshot
 
 The interface allows easy image upload, serving size selection, and download of results:
@@ -76,7 +149,7 @@ The interface allows easy image upload, serving size selection, and download of 
 ---
 
 ## 🤔 Results with Identified Fruit image and Nutrient summary
-
+![Fruit Identified](Project-Images/Fruit%20Identified.png)
 ![Nutrition Results](Project-Images/Nutrition%20Results.png)
 
 
