@@ -1,0 +1,10 @@
+venv/
+configs/
+dataset/
+reports/
+runs/
+*best.pt
+*last.pt
+*yolo11n.pt
+*yolov8n.pt
+
